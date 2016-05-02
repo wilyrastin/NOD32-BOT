@@ -206,65 +206,9 @@ end
 -- Create a basic config.json file and saves it.
 function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
-  config = {
-    enabled_plugins = {
-    "all",
-    "anti_ads",
-    "anti_bot",
-    "anti_spam",
-    "anti_chat",
-    "banhammer",
-    "boobs",
-    "bot_manager",
-    "botnumber",
-    "broadcast",
-    "calc",
-    "download_media",
-    "feedback",
-    "get",
-    "google",
-    "gps",
-    "ingroup",
-    "inpm",
-    "inrealm",
-    "invite",
-    "leave_ban",
-    "linkpv",
-    "location",
-    "lock_join",
-    "anti_fosh",
-    "left_group",
-    "owners",
-    "plugins",
-    "set",
-    "spam",
-    "stats",
-    "support",
-    "filterworld",
-    "server_manager",
-    "time",
-    "version"
+ 
     },
 	    sudo_users = {158990680},--Sudo users
-    disabled_channels = {},
-    moderation = {data = 'data/moderation.json'},
-    about_text = [[
-https://github.com/BH-YAGHI/NOD32-BOT.git
-
-channel : @Nod32team
-sodu : @behrooZyaghi
-]],
-    help_text_realm = [[
-Realm Commands:
-
-!creategroup [Name]
-Create a group
-
-!createrealm [Name]
-Create a realm
-
-!setname [Name]
-Set realm name
 
 !setabout [GroupID] [Text]
 Set a group's about text
